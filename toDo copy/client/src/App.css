@@ -1,0 +1,65 @@
+
+h1 {
+  color: rgb(63, 138, 219);
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
+/* .all-doings {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+} */
+
+.all-doings {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  /* margin-left: 80px; */
+  width:330px;
+
+}
+
+.one-doing {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 10px;
+  margin-top: 20px;
+  position: relative;
+  border-top: 1px solid rgba(229, 220, 220, 0.593);
+  border-bottom: 1px solid rgba(229, 220, 220, 0.593);
+  background-color: rgba(0, 213, 255, 0.1);
+
+}
+
+span {
+  color: rgb(63, 138, 219);
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  position: absolute;
+  right: 0;
+}

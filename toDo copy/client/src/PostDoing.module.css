@@ -1,0 +1,29 @@
+.buttonPost {
+  border:rgb(63, 138, 219); 
+  color: rgb(255, 255, 255);
+  background-color: rgb(63, 138, 219);
+  padding: 6px 12px;  
+  transition: all 0.3s ease;
+}
+
+.buttonPost:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(63, 138, 219, 0.9);
+}
+
+
+.formatButtonPost {
+  display: flex;
+  gap: 10px;
+}
+
+.inputButtonPost {
+  text-align: center;
+  border: 2px solid rgb(63, 138, 219);
+  outline: none;
+  padding: 8px 70px;
+}
+
+.inputButtonPost::placeholder {
+  font-size: 0.81rem;
+}
